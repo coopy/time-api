@@ -1,4 +1,4 @@
-function handleGet(request, reply) {
+function getTime(request, reply) {
   var date = new Date();
   
   reply({
@@ -15,10 +15,7 @@ function handleGet(request, reply) {
   });
 }
 
-module.exports = {
-  handleGet: handleGet
-};
-
-
-
+module.exports = [
+  { method: 'GET', path: '/time', handler: getTime }
+];
 

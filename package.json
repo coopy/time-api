@@ -4,7 +4,7 @@
   "description": "A simple API for getting the time.",
   "author": "Per Nilsson",
   "repository": "git@github.com:per-nilsson/time-api.git",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
   },
   "keywords": [
