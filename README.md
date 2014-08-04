@@ -3,7 +3,26 @@ Time API
 
 A simple REST API that gives you the current time and date in GMT.
 
-Example:
+Installation
+------------
+
+```
+git clone git@github.com:per-nilsson/time-api.git
+npm install
+```
+
+Run
+---
+
+```
+node server.js
+open http://0.0.0.0:8000/time
+```
+
+Remote Access
+-------------
+
+Time API is deployed to Heroku:
 
 `curl http://peaceful-dawn-5311.herokuapp.com/time`
 
@@ -20,3 +39,4 @@ Example:
   "day": 4
 }
 ```
+
