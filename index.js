@@ -3,7 +3,7 @@
 var Hapi = require('hapi');
 var time = require('./handlers/time');
 
-var port = 8000;
+var port = process.env.PORT || 8000;
 var host = 'localhost';
 
 var server = new Hapi.Server(host, port);
