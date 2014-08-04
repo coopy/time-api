@@ -4,7 +4,7 @@ var Hapi = require('hapi');
 var time = require('./handlers/time');
 
 var port = process.env.PORT || 8000;
-var host = 'localhost';
+var host = '0.0.0.0';
 
 var server = new Hapi.Server(host, port);
 
