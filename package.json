@@ -5,14 +5,14 @@
   "author": "Per Nilsson",
   "repository": "git@github.com:per-nilsson/time-api.git",
   "main": "server.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "time",
     "date"
   ],
   "license": "MIT",
   "dependencies": {
+    "good": "^2.2.0",
     "hapi": "^6.3.0"
   },
   "engines": {
